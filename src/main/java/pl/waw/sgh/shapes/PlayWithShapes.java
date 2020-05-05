@@ -1,12 +1,10 @@
 package pl.waw.sgh.shapes;
 
 public class PlayWithShapes {
-
     public static void main(String[] args) {
         Rectangle r1 = new Rectangle(6, 8);
         System.out.println("Surface R1: " + r1.calcSurface());
         System.out.println("Perimeter R1: " + r1.calcPerimeter());
-
 
 //        Rectangle r2 = new Rectangle(3, 4);
 //        Shape s2 = r2;
