@@ -1,5 +1,4 @@
 package pl.waw.sgh.shapes;
-
 public class EquilatTriangle extends Triangle {
     public EquilatTriangle(double a) {
         super(a, a, a, (a*Math.sqrt(3)) / 2);
